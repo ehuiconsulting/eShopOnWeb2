@@ -8,7 +8,7 @@ env:
   LOCATION: westeurope
   TEMPLATE_FILE: infra/webapp.bicep
   SUBSCRIPTION_ID: ce90e181-06f6-4573-a8c8-68b2c72f5cfc
-  WEBAPP_NAME: eshoponweb-webapp-lab5-001
+  WEBAPP_NAME: eshoponweb-webapp-${{ github.run_number }}
 //test
 jobs:
   # Build, test and publish .NET web project
